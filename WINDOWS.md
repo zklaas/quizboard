@@ -40,4 +40,4 @@ Settings are kept in `%APPDATA%\Quizboard`. *Edit in Excel* opens the workbook i
 To remove it: delete the folder, the Start-menu entry (Quizboard) and
 `%LOCALAPPDATA%\Programs\Quizboard`.
 
-If something doesn't work, please write to zklaas@yahoo.ca.
+If something doesn't work, please write to zklaastest-testing@yahoo.com.

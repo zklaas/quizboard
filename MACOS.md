@@ -42,4 +42,4 @@ Settings are kept in `~/Library/Application Support/Quizboard`. *Edit in Excel* 
 
 To remove it: delete the folder, `~/Applications/Quizboard.app` and `~/.local/bin/quizboard`.
 
-If something doesn't work, please write to zklaas@yahoo.ca.
+If something doesn't work, please write to zklaastest-testing@yahoo.com.
