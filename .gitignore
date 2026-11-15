@@ -1,0 +1,5 @@
+
+# Kept out of releases by Classifier (provenance)
+__pycache__/
+*.pyc
+.classifier-review/
