@@ -4,6 +4,18 @@ A 6 × 6 board of point values, questions and answers, read from an Excel
 workbook. Six column topics run across the top; under each topic, six tiles show
 their points, 1 to 6 going down.
 
+## Download
+
+Ready-to-run downloads (executable programs), with nothing else to install:
+
+* **Windows:** [Quizboard-Setup-Windows.exe](https://github.com/zklaas/quizboard/releases/latest/download/Quizboard-Setup-Windows.exe)
+* **macOS** (Apple silicon): [Quizboard-macOS.dmg](https://github.com/zklaas/quizboard/releases/latest/download/Quizboard-macOS.dmg)
+* **Linux:** [Quizboard-Linux-x86_64.AppImage](https://github.com/zklaas/quizboard/releases/latest/download/Quizboard-Linux-x86_64.AppImage)
+
+The first time, Windows or macOS asks before opening it; the
+[release page](https://github.com/zklaas/quizboard/releases/latest) says what to click.
+To install from the source code at the command line instead, see below.
+
 * Click a tile → its question fills the window.
 * Click the question (or press Space) → the answer appears under it.
 * Click again (or press Space or Esc) → back to the board, where that tile is now blank.
