@@ -70,7 +70,12 @@ from board_io import (
 )
 from i18n import LANGUAGE_NAMES, LANGUAGES, NB, Message, and_list, other, render, tr, tr_n
 
-CONFIG_PATH = Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / ".config")) / "quizboard" / "config.json"
+if os.name == "nt":                     # Windows: %APPDATA%\Quizboard
+    CONFIG_PATH = Path(os.environ.get("APPDATA") or Path.home()) / "Quizboard" / "config.json"
+elif sys.platform == "darwin":          # macOS: ~/Library/Application Support/Quizboard
+    CONFIG_PATH = Path.home() / "Library" / "Application Support" / "Quizboard" / "config.json"
+else:                                  # Linux: the XDG config folder
+    CONFIG_PATH = Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / ".config")) / "quizboard" / "config.json"
 XLSX_SUFFIXES = (".xlsx", ".xlsm")
 MAX_TEAMS = 8
 

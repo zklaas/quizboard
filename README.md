@@ -135,3 +135,10 @@ language are remembered in
 | `_quizboard_check.py`       | Regression checks: layouts, warnings, translations, headless GUI play-throughs |
 | `run.sh`                    | Launcher                                                  |
 | `examples/quizboard_example_en.xlsx` / `_fr.xlsx` | A complete bilingual pair (36 questions each) |
+
+## Windows and macOS
+
+The same code runs on Windows and macOS. To install it there:
+
+* **Windows:** see [WINDOWS.md](WINDOWS.md) (`install.ps1`).
+* **macOS:** see [MACOS.md](MACOS.md) (`install-macos.sh`).
