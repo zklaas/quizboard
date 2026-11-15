@@ -3,7 +3,7 @@
 #
 #   bash install-macos.sh
 #
-# Creates .venv in this folder with PyQt6, writes a `quizboard` command into
+# Creates .venv in this folder with PyQt6, writes the `quizboard` command into
 # ~/.local/bin, and puts a Quizboard app (with its icon) in ~/Applications, so it
 # opens from Launchpad, Spotlight or the Dock.
 set -euo pipefail
